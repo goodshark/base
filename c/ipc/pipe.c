@@ -2,6 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**********************************************************
+  parent process write msg to child process
+**********************************************************/
+
 int main(void)
 {
     int n, fd[2];
