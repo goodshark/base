@@ -9,6 +9,10 @@
 #define FIFO_NAME "/tmp/test_only_foo"
 #define MAXLINE 4096
 
+/********************************************************
+ * receive numbers from the fifo, and calculate them
+ *******************************************************/
+
 int main(int argc, char ** argv)
 {
     int fd, cnt, i;

@@ -9,6 +9,10 @@
 #define FIFO_NAME "/tmp/test_only_foo"
 #define MAXLINE 4096
 
+/******************************************************
+ * generate random number pairs like: 123 456
+ *****************************************************/
+
 int main(int argc, char ** argv)
 {
     int cnt, i, num1, num2;
